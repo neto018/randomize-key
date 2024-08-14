@@ -20,3 +20,4 @@ Uma aplicação simples em HTML, CSS e JavaScript que permite aos usuários inse
    ```bash
    git clone https://github.com/neto018/randomize-key.git
    cd randomize-key
+2. **Exemplo ao Vivo**: https://neto018.github.io/randomize-key/
