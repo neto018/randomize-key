@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomize Key</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Randomize Your Key</h1>
+        <form id="keyForm">
+            <label for="inputKey">Enter your key:</label>
+            <input type="text" id="inputKey" placeholder="key here..." required>
+            <button type="button" onclick="randomizeKey()">Randomize Key</button>
+        </form>
+        <div id="resultContainer">
+            <label for="resultKey">Randomized Key:</label>
+            <input type="text" id="resultKey" readonly>
+            <button id="copyButton" onclick="copyToClipboard()">Copy to Clipboard</button>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
